@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "gruntfuggly.todo-tree",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ionceflorin.copy-current-file-path",
+    "stackbreak.comment-divider",
+    "naumovs.color-highlight",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
