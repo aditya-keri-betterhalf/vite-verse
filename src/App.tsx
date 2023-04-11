@@ -1,22 +1,21 @@
 import reactLogo from './assets/react.svg';
 import viteLogo from './assets/vite.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="h-screen grid place-items-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+      <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="flex justify-around ">
+          <img src={viteLogo} className="h-20" alt="Vite logo" />
+          <img src={reactLogo} className="h-20" alt="React logo" />
+        </div>
+        <h1 className="mt-10 font-bold text-center bg-gradient-to-r from-fuchsia-500 to-pink-500 bg-clip-text text-transparent">
+          Into the Vite Verse
+        </h1>
+        <p className="font-bold mt-5 bg-gradient-to-r from-cyan-400 to-slate-500 bg-clip-text text-transparent">
+          Minimal Starter Template for React ft. Vite
+        </p>
       </div>
-      <h1>Into the Vite Verse</h1>
-      <p className="read-the-docs">
-        Minimal Starter Template for React ft. Vite
-      </p>
     </div>
   );
 }
