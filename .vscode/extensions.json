@@ -6,6 +6,7 @@
     "ionceflorin.copy-current-file-path",
     "stackbreak.comment-divider",
     "naumovs.color-highlight",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "vivaxy.vscode-conventional-commits"
   ]
 }
