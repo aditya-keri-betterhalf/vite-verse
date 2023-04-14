@@ -11,3 +11,10 @@ Kickstart your Web Application with React, TypeScript, Vite, Tailwind CSS and Ta
 - 😻 Husky git hooks and Lint Staged
 - 🚀 Absolute Imports
 - ⚡ Recommended VSCode extensions
+
+### ✨ Pro Tip 1 - Conventional Commits :
+Conventional Commits are used to enforce standards for commit messages. While this repository is already Commitizen friendly, the best way to add the commit message is by using the following VSCode Extension : `vivaxy.vscode-conventional-commits`. And then create commits through the extension interface.
+
+
+### ✨ Pro Tip 2 - Todo Tree :
+It's common to have multiple TODOs spread across the project. Install the Todo Tree extension : `gruntfuggly.todo-tree` that lets you keep track of all the Todos in one place. So anyone with this extension can open up its interface and pick up the Todos one by one.
